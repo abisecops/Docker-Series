@@ -2,7 +2,7 @@
 
 Welcome to the Docker-Series! 🚀
 
-This repo is your go-to place for Docker setups across various popular programming languages. Whether you're a developer or a DevOps engineer, you’ll find Dockerfiles and Docker Compose files here to help you containerize your apps with ease.
+This repo is your go-to place for Docker setups across various popular programming languages. Whether you're a developer or a DevOps engineer, you’ll find Dockerfiles to help you containerize your apps with ease.
 
 ## What’s Inside?
 
@@ -32,27 +32,33 @@ These are like recipes for creating Docker images. Each Dockerfile is tailored f
 
    Each language has its own folder with the Dockerfile and Docker Compose file. Navigate to the one you need.
 
-3. **Build and Run**:
-
-   With Docker Compose, you can build and start your container with:
-
-   ```bash
-   docker-compose up --build
-   ```
+3. **Build the Docker Image:**
+   You can build the Docker image with:
+   
+      ```bash
+      docker build -t your-image-name .
+      ```
 
    This command builds the Docker image and starts the container. 
 
-4. **Access Your App**:
+5. **Run the Container:**
 
-   By default, your app will be available at `http://localhost:8080` or whatever port is specified in the Docker Compose file. 
+   Start your container with:
+   ```
+   docker run -p 8080:8080 your-image-name
+   ```
 
-5. **Stop and Remove**:
+6. **Stop and Remove Container**:
 
    When you're done, stop and remove everything with:
-
+- Stop
    ```bash
-   docker-compose down
+   docker stop container-id
    ```
+- Remove
+  ```
+  docker rm container-id
+  ```
 
 ## Contributing
 
