@@ -2,7 +2,7 @@
 
 Welcome to the Docker-Series! 🚀
 
-This repo is your go-to place for Docker setups across various popular programming languages. Whether you're a developer or a DevOps engineer, you’ll find Dockerfiles to help you containerize your apps with ease.
+This repo provides Docker setups for popular programming languages. Whether you're a developer or a DevOps engineer, you’ll find Dockerfiles here to easily containerize your apps.
 
 ## What’s Inside?
 
