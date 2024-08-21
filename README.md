@@ -20,15 +20,6 @@ These are like recipes for creating Docker images. Each Dockerfile is tailored f
 - **React**: For React apps. Builds with Yarn and serves with Nginx.
 - **Rust**: For Rust apps. Uses multi-stage builds for efficiency.
 
-### Docker Compose Files
-
-These files make running your Docker containers a breeze. They set up everything you need to get your app up and running quickly.
-
-- **Service Definitions**: How to build and run your Docker containers.
-- **Port Mapping**: Connects your container’s ports to your machine’s ports.
-- **Environment Variables**: Set up any environment variables your app needs.
-- **Volume Management**: Manage and persist your data.
-
 ## How to Use
 
 1. **Clone the Repo**:
